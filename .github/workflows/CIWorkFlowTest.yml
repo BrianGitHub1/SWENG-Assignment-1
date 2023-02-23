@@ -1,4 +1,7 @@
+name: testing
 
+on: [push, fork]
+   #branches: [ main ]
  
 jobs: 
   CIWorkFlowTest:
